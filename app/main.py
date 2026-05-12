@@ -7,14 +7,17 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, Request, Response
 
 from app import __version__
+from app.config import config
 from app.logger import configure_logging, get_logger, reset_request_id, set_request_id
+from app.review import router as review_router
 
 load_dotenv()
 
-configure_logging(os.getenv("LOG_LEVEL", "INFO"))
+configure_logging(config.log_level)
 logger = get_logger(__name__)
 
 app = FastAPI(title="gtm-orchestrator", version=__version__)
+app.include_router(review_router)
 
 
 @app.middleware("http")
