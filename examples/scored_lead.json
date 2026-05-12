@@ -1,0 +1,24 @@
+{
+  "lead_id": "lead_20260512_0142",
+  "assessment": {
+    "priority": "high",
+    "fit_score": 87,
+    "intent_score": 74,
+    "data_quality_score": 92,
+    "overall_status": "ready_for_review"
+  },
+  "explanations": {
+    "fit": "Mid-market healthcare SaaS profile matches target account criteria.",
+    "intent": "Recent hiring and platform expansion suggest active growth.",
+    "data_quality": "Company and contact fields are sufficiently complete for routing."
+  },
+  "routing": {
+    "next_step": "human_review",
+    "review_queue": "gtm-reviews"
+  },
+  "metadata": {
+    "scored_at": "2026-05-12T08:18:00Z",
+    "model": "llama-3.3-70b",
+    "pipeline_stage": "foundation"
+  }
+}

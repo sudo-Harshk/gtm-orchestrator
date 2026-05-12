@@ -1,0 +1,39 @@
+{
+  "lead_id": "lead_20260512_0142",
+  "company": {
+    "name": "Northwind Health Analytics",
+    "domain": "northwindhealth.io",
+    "employee_count": 185,
+    "revenue_band": "$25M-$50M",
+    "industry": "healthcare SaaS"
+  },
+  "contact": {
+    "first_name": "Maya",
+    "last_name": "Patel",
+    "title": "VP of Revenue Operations",
+    "email": "maya.patel@northwindhealth.io",
+    "linkedin_url": "https://www.linkedin.com/in/mayapatel"
+  },
+  "routing": {
+    "owner": "outbound-pipeline",
+    "source": "apollo",
+    "segment": "healthcare-saas-midmarket"
+  },
+  "signals": {
+    "recent_funding": true,
+    "hiring_activity": [
+      "revops-manager",
+      "sales-development-rep"
+    ],
+    "tech_stack": [
+      "salesforce",
+      "hubspot",
+      "snowflake"
+    ],
+    "notes": "Expanding outbound motion across provider and payer verticals."
+  },
+  "state": {
+    "status": "queued",
+    "created_at": "2026-05-12T08:14:00Z"
+  }
+}

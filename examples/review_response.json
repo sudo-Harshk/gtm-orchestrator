@@ -1,0 +1,17 @@
+{
+  "lead_id": "lead_20260512_0142",
+  "review": {
+    "decision": "approve",
+    "reviewer": "ops-analyst",
+    "notes": "Good fit for healthcare SaaS outbound. Route to SDR sequence after enrichment checks complete.",
+    "timestamp": "2026-05-12T08:22:00Z"
+  },
+  "workflow": {
+    "status": "approved",
+    "next_owner": "sales-development",
+    "required_followups": [
+      "verify phone number",
+      "confirm territory ownership"
+    ]
+  }
+}
